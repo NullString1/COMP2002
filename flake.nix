@@ -24,6 +24,7 @@
         devShells.default = pkgs.mkShell {
           buildInputs = with pkgs; [
 	          uv
+            python313
             libffi
             stdenv.cc.cc
           ];
