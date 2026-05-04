@@ -7,8 +7,10 @@ requires-python = ">=3.11"
 dependencies = [
     "ipykernel>=7.1.0",
     "matplotlib>=3.10.8",
+    "nbconvert>=7.17.1",
     "optuna>=4.7.0",
     "pandas>=3.0.0",
+    "pandoc>=2.4",
     "scikit-learn>=1.8.0",
     "scikit-learn-intelex>=2025.10.1",
 ]
